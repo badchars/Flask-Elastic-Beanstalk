@@ -7,7 +7,6 @@ phases:
   pre_build:
     commands:
       - python3.7 -m venv ~/.venv
-      - source ~/.venv/bin/activate
       - make install
       - make lint
 
